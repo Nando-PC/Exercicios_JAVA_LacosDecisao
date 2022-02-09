@@ -10,14 +10,14 @@ public class Triangulo {
 		
 		Scanner ler = new Scanner(System.in);
 		
-		System.out.println("Entre com o valor da base do triângulo: ");
+		System.out.println("Entre com o valor da base do triï¿½ngulo: ");
 		base = ler.nextFloat();
-		System.out.println("\nEntre com o valor da altura do triângulo: ");
+		System.out.println("\nEntre com o valor da altura do triï¿½ngulo: ");
 		altura = ler.nextFloat();
 		
-		if(base>=0 && altura>=0) {
+		if(base>0 && altura>0) {
 			area = (base*altura)/2;
-			System.out.println("\n A área do triângulo é: "+area);
+			System.out.println("\n A ï¿½rea do triï¿½ngulo ï¿½: "+area);
 		}
 		else {
 			System.out.println("\n Os valores devem ser positivos e maiores que zero!!");
